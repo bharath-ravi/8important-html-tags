@@ -44,3 +44,15 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+meter {
+  width: 400px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+meter::-webkit-meter-optimum-value {
+  background: red;
+}
+meter::-moz-meter-bar { /* Firefox Pseudo Class */
+  background: red;
+}
